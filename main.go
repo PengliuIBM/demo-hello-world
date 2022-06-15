@@ -12,7 +12,7 @@ var addr = flag.String("addr", ":8080", "addr to bind to")
 func handler(w http.ResponseWriter, r *http.Request) {
 	log.Println(r.RemoteAddr, r.Method, r.URL.String())
 
-	fmt.Fprintf(w, "I'm glad I spend Fridays with Penguin - fork chain 666!\n")
+	fmt.Fprintf(w, "I'm glad I spend Fridays with Penguin - fork chain 6677!\n")
 }
 
 func main() {
